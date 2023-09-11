@@ -6,11 +6,11 @@ Solution:
 
 Find serial port of flight controller (fc)
 
-'''
+```
 $ dmesg | grep tty
 [    0.000000] console [tty0] enabled
 [  192.093923] cdc_acm 2-1.2:1.0: ttyACM0: USB ACM device
-'''
+```
 
 View permissions
 
